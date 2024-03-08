@@ -1,0 +1,115 @@
+/* Root variables for easy modification and uniformity */
+:root {
+    --primary-color: #333;
+    --secondary-color: #f2f2f2;
+    --font-family: 'Georgia', serif;
+    --base-padding: 16px;
+  }
+  
+  /* Basic styles for the body of the webpage */
+  body {
+    font-family: var(--font-family);
+    background-color: var(--secondary-color);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Styles for the navigation bar */
+  .topnav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 var(--base-padding);
+    background-color: var(--primary-color);
+    overflow: hidden;
+  }
+  
+  /* Styles for the links in the navigation bar */
+  .topnav a {
+    color: var(--secondary-color);
+    text-align: center;
+    padding: 14px var(--base-padding);
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Styles for the form */
+  #form {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+  }
+  
+  /* Styles for the search query input */
+  #query {
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 5px;
+  }
+  
+  /* Styles for the section where the movie cards are displayed */
+  #section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 16px;
+  }
+  
+  /* Styles for the movie cards */
+  #section .card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    margin: 20px;
+    padding: 15px;
+    width: 200px;
+    transition: transform .2s;
+  }
+  
+  /* Styles for the movie cards when hovered */
+  #section .card:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Styles for the paragraphs in the movie cards */
+  #section .card p {
+    margin: 0;
+    padding: 10px 0;
+  }
+  
+  /* Styles for the links in the movie cards */
+  #section .card a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  /* Styles for the title */
+  #title {
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Styles for the rows */
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Styles for the columns */
+  .column {
+    flex: 50%;
+    max-width: 50%;
+    padding: 0 4px;
+  }
+  
+  /* Styles for the images in the columns */
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
