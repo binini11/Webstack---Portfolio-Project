@@ -109,7 +109,13 @@
   /* Styles for the images in the columns */
   .column img {
     margin-top: 8px;
-    vertical-align: middle;
+    vertical-align: middle;.topnav a.reviews-link {
+      color: #ff6347; /* Change the color to tomato */
+      font-weight: bold; /* Make the text bold */
+      background-color: #f2f2f2; /* Add a light grey background */
+      border-radius: 5px; /* Round the corners */
+      padding: 5px; /* Add some padding */
+    }
     width: 100%;
   }
   
